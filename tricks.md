@@ -1,5 +1,7 @@
 ```
-#dry run and create a yaml file 
+#Create a new pod with the name redis and with the image redis123.
+#Use a pod-definition YAML file. And yes the image name is wrong!
+
 
 controlplane ~ ➜  kubectl run redis --image=redis123 --dry-run=client -o yaml > redis-definition.yaml
 
